@@ -9,6 +9,6 @@ class UserController extends Controller
 {
     function index(){
         $users = Users::all();
-        return response()->json($users);   
+        return response()->json($users);
     }
 }
